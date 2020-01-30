@@ -1,0 +1,277 @@
+.countdown-row,
+.ievent {
+    position: relative
+}
+
+.single-event .countdown {
+    display: inline-block;
+    position: relative;
+    top: 7px
+}
+
+.single-event .countdown-section {
+    padding: 0 15px;
+    border-left-color: rgba(255, 255, 255, .3);
+    color: #CCC
+}
+
+.parallax .entry-overlay-meta h2 a,
+.single-event .countdown-amount {
+    color: #FFF
+}
+
+.parallax .entry-overlay,
+.parallax .entry-overlay-meta {
+    background: 0 0;
+    width: auto;
+    text-align: right;
+    bottom: 30px;
+    left: auto;
+    right: 30px
+}
+
+.parallax .entry-overlay-meta {
+    padding: 20px;
+    font-size: 14px;
+    text-align: left;
+    right: 38px;
+    bottom: 130px;
+    width: 368px;
+    height: auto;
+    line-height: inherit;
+    background-color: rgba(0, 0, 0, .7);
+    border-radius: 3px
+}
+
+.parallax.overlay-left .entry-overlay,
+.parallax.overlay-left .entry-overlay-meta {
+    right: auto;
+    left: 30px
+}
+
+.parallax.overlay-left .entry-overlay-meta {
+    left: 38px
+}
+
+.parallax.overlay-center .entry-overlay,
+.parallax.overlay-center .entry-overlay-meta {
+    bottom: 100px;
+    right: auto;
+    left: 50%;
+    margin-left: -192px
+}
+
+.parallax.overlay-center .entry-overlay-meta {
+    top: 100px;
+    bottom: auto;
+    margin-left: -184px
+}
+
+.parallax .entry-overlay-meta h2 {
+    font-size: 20px;
+    text-transform: uppercase;
+    border-bottom: 1px dashed rgba(255, 255, 255, .2);
+    padding-bottom: 17px
+}
+
+.parallax .entry-overlay-meta h2 a:hover {
+    color: #DDD
+}
+
+.parallax .countdown {
+    top: 0
+}
+
+.parallax .countdown-section {
+    border-left: 0;
+    width: 80px;
+    height: 80px;
+    margin: 0 8px;
+    font-size: 13px;
+    background-color: rgba(0, 0, 0, .7);
+    border-radius: 3px;
+    padding-top: 14px
+}
+
+.parallax .countdown-amount {
+    font-size: 28px;
+    margin-bottom: 6px
+}
+
+.ievent {
+    margin-top: 20px
+}
+
+.ievent:first-child {
+    margin-top: 0
+}
+
+.ievent .entry-image {
+    width: 30%;
+    margin-right: 20px
+}
+
+.ievent .entry-content {
+    margin-top: 20px
+}
+
+.ievent .entry-title h2 {
+    font-size: 18px
+}
+
+.ievent .entry-meta {
+    margin-right: -10px
+}
+
+.ievent .entry-meta li {
+    font-size: 13px;
+    margin-right: 10px;
+    padding-left: 10px
+}
+
+.ievent .entry-meta li:first-child {
+    padding-left: 0
+}
+
+.countdown {
+    display: block
+}
+
+.countdown-row {
+    display: block;
+    text-align: center
+}
+
+.countdown-section {
+    display: inline-block;
+    font-size: 11px;
+    line-height: 1;
+    text-align: center;
+    width: 25%;
+    border-left: 1px dotted #BBB;
+    color: #888;
+    text-transform: capitalize
+}
+
+.countdown-section:first-child {
+    border-left: 0
+}
+
+.countdown-amount {
+    display: block;
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 5px
+}
+
+.countdown-descr {
+    display: block;
+    width: 100%
+}
+
+.countdown-medium .countdown-section {
+    font-size: 14px
+}
+
+.countdown-medium .countdown-amount {
+    font-size: 30px;
+    margin-bottom: 7px
+}
+
+.countdown-large .countdown-section {
+    font-size: 18px
+}
+
+.countdown-large .countdown-amount {
+    font-size: 44px;
+    font-weight: 600;
+    margin-bottom: 8px
+}
+
+.countdown.countdown-inline {
+    display: inline-block
+}
+
+.countdown.countdown-inline .countdown-row {
+    display: inline-block;
+    text-align: center
+}
+
+.countdown.countdown-inline .countdown-section {
+    display: inline-block;
+    font-size: inherit;
+    line-height: inherit;
+    width: auto;
+    border: none;
+    color: inherit;
+    margin-left: 7px;
+    text-transform: inherit
+}
+
+.countdown.countdown-inline .countdown-section:first-child {
+    margin-left: 0
+}
+
+.countdown.countdown-inline .countdown-amount {
+    display: inline-block;
+    font-size: inherit;
+    color: inherit;
+    font-weight: 700;
+    margin: 0 3px 0 0
+}
+
+.countdown.countdown-inline .countdown-descr {
+    display: inline-block;
+    width: auto
+}
+
+body:not(.device-xs):not(.device-xxs) .countdown.countdown-large.coming-soon .countdown-section {
+    border: none;
+    padding: 15px
+}
+
+body:not(.device-xs):not(.device-xxs) .countdown.countdown-large.coming-soon .countdown-amount {
+    height: 140px;
+    line-height: 140px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, .2);
+    margin-bottom: 15px!important
+}
+/* Countdown
+-----------------------------------------------------------------*/
+
+
+.xmas-countdown { font-family: 'Roboto', sans-serif; }
+
+.xmas-countdown .countdown-section {
+	font-size: 13px;
+	letter-spacing: 1px;
+	font-weight: 300;
+	border: 0;
+	color: rgba(255,255,255,0.8);
+}
+
+.xmas-countdown .countdown-amount {
+	font-size: 50px;
+	margin-bottom: 5px;
+	letter-spacing: -2px;
+	font-weight: 700;
+	color: #FFF;
+}
+
+
+@media (min-width: 768px) {
+
+	.vertical-middle-offset {
+		position: relative;
+		top: -100px;
+	}
+
+	.xmas-countdown .countdown-section { font-size: 18px; }
+
+	.xmas-countdown .countdown-amount {
+		font-size: 108px;
+		letter-spacing: -4px;
+	}
+
+}

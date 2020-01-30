@@ -1,0 +1,159 @@
+ body {
+        background:url(https://i.imgur.com/DfXzZmv.jpg) no-repeat center center fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		background-size: cover;
+		position: relative;
+      }
+	  
+a {
+			line-height: normal;
+			font-family: 'Varela Round', sans-serif;
+			font-weight: 600;
+			text-decoration: none;
+			font-size: 13px;
+			color: #A7AAAE;
+			position: absolute;
+			right: 20px;
+			bottom: 20px;
+			border: 1px solid #A7AAAE;
+			padding: 12px 20px 10px 20px;
+			border-radius: 50px;
+			transition: all .1s ease-in-out;
+			text-transform: uppercase;
+			z-index: 5;
+		}
+			a:hover {
+			background: #A7AAAE;
+			color: #fff;
+		}
+	
+a2 {
+			line-height: normal;
+			font-family: 'Varela Round', sans-serif;
+			font-weight: 600;
+			text-decoration: none;
+			font-size: 13px;
+			color: #A7AAAE;
+			position: absolute;
+			left: 20px;
+			bottom: 20px;
+			border: 1px solid #A7AAAE;
+			padding: 12px 20px 10px 20px;
+			border-radius: 50px;
+			transition: all .1s ease-in-out;
+			text-transform: uppercase;
+			z-index: 5;
+		}
+			a2:hover {
+			background: #A7AAAE;
+			color: #fff;
+		}
+	
+		
+		.demos {
+			position: absolute;
+			height: 37px;
+			left: 50%;
+			top: 20px;
+			z-index: 5;
+			white-space: nowrap;
+			-webkit-transform: translateX(-50%);
+			transform: translateX(-50%);
+		}
+		.demos a {
+			display: inline-block;
+			position: static;
+			left: auto;
+			bottom: auto;
+			border-radius: 0;
+			margin-left: -1px;
+		}
+		.demos a:first-of-type {
+			border-top-left-radius: 4px;
+			border-bottom-left-radius: 4px;
+			margin-left: 0;
+		}
+		.demos a:last-of-type {
+			border-top-right-radius: 4px;
+			border-bottom-right-radius: 4px;
+		}	  
+	  
+
+		
+	 	  
+	  
+	  
+	  
+@-webkit-keyframes rotate360 {
+	100% {
+		-webkit-transform: rotate(360deg);
+	}
+}
+
+@-moz-keyframes rotate360 {
+	100% {
+		-moz-transform: rotate(360deg);
+	}
+}
+
+@-ms-keyframes rotate360 {
+	100% {
+		-ms-transform: rotate(360deg);
+	}
+}
+
+@-o-keyframes rotate360 {
+	100% {
+		-o-transform: rotate(360deg);
+	}
+}
+
+@keyframes rotate360 {
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+.rotate360 {
+	-webkit-animation-name: rotate360;
+	-moz-animation-name: rotate360;
+	-ms-animation-name: rotate360;
+	-o-animation-name: rotate360;
+	animation-name: rotate360;
+
+	-webkit-animation-duration: 2s;
+	-moz-animation-duration: 2s;
+	-ms-animation-duration: 2s;
+	-o-animation-duration: 2s;
+	animation-duration: 2s;
+	
+	-ms-transform: rotate(10deg); /* IE 9 */
+    -webkit-transform: rotate(10deg); /* Safari */
+    transform: rotate(10deg);
+}
+
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+
+	}
+}
+
+@-webkit-keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+
+	}
+}
+
+.fadeIn {
+	-webkit-animation: fadeIn 4s ease-out;
+	animation: fadeIn 4s ease-out;
+}

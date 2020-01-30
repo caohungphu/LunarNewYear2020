@@ -1,0 +1,316 @@
+
+/* Reset CSS
+ * --------------------------------------- */
+body,div,dl,dt,dd,h1,h2,h3,h4,h5,h6,pre,
+form,fieldset,input,textarea,p,blockquote,th,td {
+    padding: 0;
+    margin: 0;
+}
+a{
+	text-decoration:none;
+}
+table {
+    border-spacing: 0;
+}
+fieldset,img {
+    border: 0;
+}
+address,caption,cite,code,dfn,em,strong,th,var {
+    font-weight: normal;
+    font-style: normal;
+}
+strong{
+	font-weight: bold;
+}
+caption,th {
+    text-align: left;
+
+}
+h1,h2,h3,h4,h5,h6 {
+    font-weight: normal;
+    font-size: 100%;
+    margin:0;
+    padding:0;
+    color:#f2f2f2;
+}
+q:before,q:after {
+    content:'';
+}
+abbr,acronym { border: 0;
+}
+
+/* Custom CSS
+ * --------------------------------------- */
+body{
+	font-family: 'Lato', Calibri, Arial, sans-serif;
+	color: #f2f2f2;
+}
+.section{
+	text-align: center;
+}
+
+/* Menu
+ * --------------------------------------- */
+
+#menu li {
+    height: 50px;
+    width: 100px;
+	display:inline-block;
+	color: #000;
+	background:#fff;
+	background: rgba(255,255,255, 0.5);
+    transition: 0.4s ease;
+    float: left;
+}
+#menu li.active{
+	background:#666;
+	background: rgba(0,0,0, 0.5);
+	color: #fff;
+}
+#menu li a{
+	text-decoration:none;
+	color: #000;
+    line-height: 50px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+}
+#menu li.active a:hover{
+	color: #000;
+}
+#menu li:hover{
+	background: rgba(255,255,255, 0.8);
+}
+#menu li a,
+#menu li.active a{
+	display:block;
+}
+#menu li.active a{
+	color: #fff;
+}
+#menu{
+    overflow: hidden;
+    border-radius:20px 20px 20px 20px;
+	position:fixed;
+	top:0;
+	left:0;
+	height: 50px;
+	z-index: 70;
+	width: 300px;
+	padding: 0;
+	margin-top:10px;
+    left: 50%;
+    transform: translate(-50%);
+    box-shadow: 0 10px 6px -6px rgba(0,0,0,0.5);
+}
+
+
+/* Section 1
+ * --------------------------------------- */
+#section1
+{ background-image: url('../../img/bg.jpg');
+    background-size: cover; background-position: center center;}
+#section1 h1{
+	color: #444;
+}
+#section1 p{
+	color: #333;
+	color: rgba(0,0,0,0.3);
+}
+#section1 img{
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%,-70%);
+    animation-name: onggia;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    transition: 1s ease;
+}
+@keyframes onggia {
+    0%{left: 50%;top:40%;}
+    50%{left: 55%;top:35%;}
+    100%{left: 50%; top:40%;}
+}
+#section1 #textsec1{
+    color: black;
+    margin-top: 140px;
+    color: white;
+    font-size: 30px;
+    font-weight: 800;
+}
+/* Section 2
+ * --------------------------------------- */
+#section2
+{ background-image: url('../../img/bg4.jpg');
+    background-size: cover; background-position: center center;}
+#section2 p{
+	z-index: 3;
+}
+#section2 p{
+	opacity: 0.8;
+}
+
+/* Section 3
+ * --------------------------------------- */
+ @import url(https://fonts.googleapis.com/css?family=Roboto);
+#section3 { background: url(https://wallpapersite.com/images/pages/pic_w/6347.jpg);
+  background-size: cover;
+  font-family: Roboto, Helvetica, Arial, serif;
+  padding: 20px;   
+  box-sizing: border-box;}
+
+
+/* Section 4
+ * --------------------------------------- */
+#section4 p{
+	opacity: 0.6;
+}
+
+/* Overwriting fullPage.js tooltip color
+* --------------------------------------- */
+#pp-nav.custom .pp-tooltip{
+	color: #AAA;
+}
+
+/* Snowfall Effect
+-----------------------------------------------------------------*/
+
+#framebutton111{
+    transform: translate(-50%,-50%);
+    top:50%;
+    left: 50%;
+    position: absolute;
+    width: 705px;
+    height: 400px;
+    z-index: 1000;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+}
+#friend{
+    
+}
+#family{
+    left: 235px;
+}
+#crush{
+    left: 470px;
+}
+#button1:hover + #friend{
+    background-color: white;
+}
+#button1:hover{
+    background-color: rgba(255,255,255,0.3);
+}
+#button2:hover{
+    background-color: rgba(255,255,255,0.3);
+}#button3:hover{
+    background-color: rgba(255,255,255,0.3);
+}
+.framebutinside{
+    position: absolute;
+    width: 235px;
+    height: 400px;
+    background-color: rgba(255,255,255,0.5);
+}
+.framebutinside img{
+    margin-top: 40px;
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    border: 4px solid white;
+    
+}
+.framebutinside #img222{
+    border-radius:0px;
+    border: none;
+    width: 100px;
+    height: 90px;
+    margin-top: 10px;
+}
+.framebutinside .linee{
+    margin: 10px auto 2px;
+    height: 3px;
+    width: 160px;
+    background-color: white;
+}
+.framebutinside p{
+    font-size: 20px;
+}
+.framebutinside .linee2{
+    height: 3px;
+    width: 100px;
+    margin: 2px auto;
+    background-color: white;
+}
+#button1{
+    float: left;
+    padding:0px;
+    position: relative;
+    width: 235px;
+    height: 100%;
+    background: rgba(255,255,255,0);
+    border: none;
+    transition: 0.4s ease;
+}
+#button2{
+    float: left;
+    padding:0px;
+    position: relative;
+    width: 235px;
+    height: 100%;
+    background: rgba(255,255,255,0);
+    border: none;
+    transition: 0.4s ease;
+}
+#button3{
+    float: left;
+    padding:0px;
+    position: relative;
+    width: 235px;
+    height: 100%;
+    background: rgba(255,255,255,0);
+    border: none;
+    transition: 0.4s ease;
+}
+.snowfall {
+	background-image:	url('../../img/s1.png'),
+						url('../../img/s2.png'),
+						url('../../img/s3.png');
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-webkit-animation: snow 10s linear infinite;
+	-moz-animation: snow 10s linear infinite;
+	-ms-animation: snow 10s linear infinite;
+	animation: snow 10s linear infinite;
+}
+
+@keyframes snow {
+	0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+	50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+	100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
+
+@-moz-keyframes snow {
+	0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+	50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+	100% {background-position: 400px 1000px, 200px 400px, 100px 300px;}
+}
+
+@-webkit-keyframes snow {
+	0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+	50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+	100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
+
+@-ms-keyframes snow {
+	0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+	50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+	100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
